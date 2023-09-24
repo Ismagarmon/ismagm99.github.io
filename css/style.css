@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Nunito;
+    src: url(/fonts/Nunito/static/Nunito-Regular.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(/fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
