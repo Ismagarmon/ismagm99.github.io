@@ -8,6 +8,11 @@
     src: url(/fonts/Ubuntu/Ubuntu-Regular.ttf);
 }
 
+@font-face {
+    font-family: NJORD;
+    src: url(../fonts/Njord-Alternate.ttf);
+}
+
 *,
 *::before,
 *::after{
@@ -17,3 +22,6 @@
     margin: 0px;
 }
 
+h1 {
+    font-family: NJORD;
+}

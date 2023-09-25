@@ -1,10 +1,7 @@
-{
-    "units" : 
-    [
-        {
-            "Number" : 0,
-            "Name" : "Introduccion",
-            "Description" : "An introduccion of the subject"
-        }
-    ]
-}
+[
+    {
+        "Number": 0,
+        "Name": "Introducción",
+        "Description": "An introduccion of the subject"
+    }
+]
