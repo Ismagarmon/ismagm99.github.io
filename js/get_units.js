@@ -13,7 +13,7 @@ const getJSON = async function loadJSON() {
 }
 
 getJSON().then((unit) => {
-    var h1 = document.getElementsByTagName('h1')[0];
+    let h1 = document.getElementsByTagName('h1')[0];
     h1.innerHTML = unit[0].Name
 }
 )
