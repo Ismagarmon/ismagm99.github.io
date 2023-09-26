@@ -1,8 +1,3 @@
-window.addEventListener
-    ('DOMContentLoaded', () => {
-        alert('Se ha terminado de cargar la pagina')
-    })
-
 const getJSON = async function loadJSON() {
 
     const json = await fetch('./assets/Units.json')
