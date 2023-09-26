@@ -14,6 +14,7 @@ const getJSON = async function loadJSON() {
 
 getJSON().then((unit) => {
     let h1 = document.getElementsByTagName('h1')[0];
-    h1.innerHTML = unit[0].Name
+    h1.innerText = unit[0].Name
+
 }
 )
