@@ -16,3 +16,27 @@
     padding: 0px;
     margin: 0px;
 }
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 10%;
+}
+
+.ctn {
+    width: 90%;
+    overflow-y: auto;
+    margin: 30px auto 0px auto;
+    border: 1px dashed black;
+}
+
+#img_1 {
+    display: block;
+    margin: 0px auto;
+}
