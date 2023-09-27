@@ -31,3 +31,7 @@ ul {
     list-style-type: disc;
     margin: 20px 0px;
 }
+
+li {
+    padding-left: 15%;
+}
