@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignments Unit 0</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <base target="_blank">
+    <link rel="icon" href="/favicon.ico?v=2" />
+    <script src="script.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -41,17 +44,160 @@
             <label for="value1">Low</label>
             <meter id="value1" min="0" max="100" low="30" high="75" optimum="80" value="25"></meter>
         </div>
-        
+
         <div>
             <label for="value2">Medium</label>
             <meter id="value2" min="0" max="100" low="30" high="75" optimum="80" value='60'></meter>
         </div>
-        
+
         <div>
             <label for="value3">High</label>
             <meter id="value3" min="0" max="100" low="30" high="75" optimum="80" value="77"></meter>
         </div>
 
+        <p>This type of tag for me are so usseful in order to see the level of the security of you password, or you can see the progress of a course instead. </p>
+    </div>
+    <div class="ctn">
+        <h2>HTML Native Search: </h2>
+        <input list="items">
+
+        <datalist id="items">
+            <option value="App Mobile Development">
+            <option value="App Mobile Developer">
+            <option value="FreeCodeTools">
+            <option value="Web Development">
+            <option value="Web Developer">
+        </datalist>
+    </div>
+    <div class="ctn">
+        <h2>Fieldset Element: </h2>
+        <form>
+            <fieldset style="text-align: center;">
+                <legend style="text-align: center;">Choose your favorite language</legend>
+
+                <input type="radio" id="javascript" name="language">
+                <label for="javascript">JavaScript</label><br />
+
+                <input type="radio" id="python" name="language">
+                <label for="python">PHP</label><br />
+
+                <input type="radio" id="java" name="language">
+                <label for="java">Java</label>
+            </fieldset>
+        </form>
+    </div>
+    <div class="ctn">
+        <h2>Window.opener: </h2>
+        <a href="https://ismagarmon.github.io/ismagm99.github.io/" target="_blank" rel="noopener">Ismael's website</a>
+    </div>
+    <div class="ctn">
+        <h2>The `spellcheck` attribute: </h2>
+        <label for="input1">spellcheck="true"</label>
+        <input type="text" id="input1" spellcheck="true">
+        <br>
+        <br>
+        <label for="input2">spellcheck="false"</label>
+        <input type="text" id="input2" spellcheck="false">
+    </div>
+    <div class="ctn">
+        <h2>Native HTML sliders: </h2>
+        <label for="volume">Volume: </label>
+        <input type="range" id="volumeninput" name="volume" min="0" max="20">
+        <br>
+        <br>
+        <label for="result">Your choice: </label>
+        <input type="number" id="result" name="result">
+    </div>
+    <div class="ctn">
+        <h2>HTML Accordion: </h2>
+        <details>
+            <summary>
+              Click me to see more details
+            </summary>
+        
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Ut eum perferendis eius. 
+              Adipisci velit et similique earum quas illo odio rerum optio, quis, 
+              expedita assumenda enim dicta aliquam porro maxime minima sed a ullam, 
+              aspernatur corporis.
+            </p>
+          </details>
+    </div>
+    <div class="ctn">
+        <h2>`mark` tag: </h2>
+        <p>Today is going to be a <mark>great day</mark>!</p>
+    </div>
+    <div class="ctn">
+        <h2>`download` attribute: </h2>
+        <a href='../../docs/WEBSITE IN GITHUB.pdf' download>Download</a>  
+    </div>
+    <div class="ctn">
+        <h2>Performance tip: </h2>
+        <picture>
+            <!-- load .webp image if supported -->
+            <source srcset="logo.webp" type="image/webp">
+            
+            <!-- 
+              Fallback if `.webp` images or <picture> tag 
+              not supported by the browser.
+            -->
+            <img src="../../img/Java_Icon.png" alt="logo">
+          </picture>   
+    </div>
+    <div class="ctn">
+        <h2>Video thumbnail: </h2>
+        <video poster="../../img/Java_Icon.png">   
+    </div>
+    <div class="ctn">
+        <h2>Input type="search": </h2>
+        <form>
+            <label for="text">Input Type Text</label>
+            <input type="text" id="text" name="text">
+
+            <br>
+            <br>
+
+            <label for="search">Input Type Search</label>
+            <input type="search" id="search" name="search">
+        </form>   
+        <br>
+        <p>I don't really see the difference between the inputs, they are still the same.</p>
+    </div>
+    <div class="ctn">
+        <h2>`pre` tag: </h2>
+        <h3>
+            With pre tag
+          </h3>
+          
+          <pre>
+            .ctn {
+                width: 90%;
+                overflow-y: auto;
+                margin: 30px auto 0px auto;
+                border: 1px dashed black;
+            }          
+          </pre>
+          
+          <h3>
+            Without pre tag
+          </h3>
+          
+          <p>
+            .ctn {
+                width: 90%;
+                overflow-y: auto;
+                margin: 30px auto 0px auto;
+                border: 1px dashed black;
+            }          
+          </p>   
+
+          <br>
+          <br>
+
+          <p>I think this is an usseful tag, because you can add you own style to the text, without the help off css. Sometimes we cannot 
+            put the style that we want with css.
+          </p>
     </div>
 </body>
 
