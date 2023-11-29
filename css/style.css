@@ -22,6 +22,22 @@
     margin: 0px;
 }
 
+:root {
+    --primaryfont: Ubuntu;
+    --secodaryfont: Nunito;
+    --thirdfont: NJORD;
+    
+}
+
+body {
+    min-height: 100vh;
+    min-height: 100svh;
+}
+
+.ctn {
+    
+}
+
 h1 {
     font-family: NJORD;
 }

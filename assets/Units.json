@@ -3,5 +3,34 @@
         "Number": 0,
         "Name": "Introducción",
         "Description": "An introduccion of the subject"
+    },
+    {
+        "Number": 1,
+        "Name": "Graphic_Interface_Planning",
+        "Description": "An introduccion of the subject"
+    },{
+        "Number": 2,
+        "Name": "Style_Usage",
+        "Description": "An introduccion of the subject"
+    },
+    {
+        "Number": 3,
+        "Name": "Multimedia_Content_Deployment",
+        "Description": "An introduccion of the subject"
+    },
+    {
+        "Number": 4,
+        "Name": "Interactive_Contect_Integration",
+        "Description": "An introduccion of the subject"
+    },
+    {
+        "Number": 5,
+        "Name": "Accessible_Web_Design",
+        "Description": "An introduccion of the subject"
+    },
+    {
+        "Number": 6,
+        "Name": "Usable_Web_Implementation",
+        "Description": "An introduccion of the subject"
     }
 ]
